@@ -1,9 +1,23 @@
-.classpath
-.project
-.settings/
-bin/
-target/
-*.log
+# Java compiled output
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.gz
+hs_err_pid*.log # JVM crash logs
+
+# VS Code specific files
+.vscode/
+
+# Operating System files
 .DS_Store
-build/
-.gradle/
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
